@@ -53,7 +53,7 @@ function ControlCard({ label, control }) {
       <p className="text-xs text-slate-500 leading-relaxed">{control.notes}</p>
 
       <p className="text-xs text-slate-400">
-        As of May 2022 election · Next election: 2027
+        As of May 2022 election · Next election: 2026
       </p>
     </div>
   )

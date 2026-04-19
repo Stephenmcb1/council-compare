@@ -2,7 +2,7 @@
  * councilControl.js — Political administration data for the 32 Scottish councils
  *
  * Based on administrations formed after the May 2022 Scottish local elections.
- * Next scheduled elections: May 2027.
+ * Next scheduled elections: May 2026.
  *
  * Council control can shift mid-term through votes of no confidence, defections,
  * or coalition changes — this data reflects the position as of mid-2022 unless

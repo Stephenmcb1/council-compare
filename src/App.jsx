@@ -18,6 +18,7 @@ import RadarChart from './components/RadarChart.jsx'
 import DeprivationNote from './components/DeprivationNote.jsx'
 import AboutPage from './components/AboutPage.jsx'
 import LeagueTablePage from './components/LeagueTablePage.jsx'
+import ScotlandContextPage from './components/ScotlandContextPage.jsx'
 import PoliticalControl from './components/PoliticalControl.jsx'
 import { METRICS } from './lib/metrics.js'
 import { getCouncil } from './lib/councils.js'
@@ -100,6 +101,9 @@ export default function App() {
             <NavButton active={page === 'league'} onClick={() => setPage('league')}>
               League Table
             </NavButton>
+            <NavButton active={page === 'context'} onClick={() => setPage('context')}>
+              Scotland in Context
+            </NavButton>
             <NavButton active={page === 'about'} onClick={() => setPage('about')}>
               About
             </NavButton>
@@ -112,6 +116,8 @@ export default function App() {
         <AboutPage />
       ) : page === 'league' ? (
         <LeagueTablePage />
+      ) : page === 'context' ? (
+        <ScotlandContextPage />
       ) : (
         <main className="max-w-4xl mx-auto w-full px-4 py-8 flex flex-col gap-8">
 

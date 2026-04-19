@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Council Compare — global base styles */
+body {
+  margin: 0;
+  background-color: #f8fafc; /* slate-50 */
+  color: #0f172a;            /* slate-900 */
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+ * Site title font: Korolev (commercial) with Jost as the freely available fallback.
+ * Jost is a geometric sans-serif very close to Korolev in weight and proportion.
+ * If Korolev is installed on the user's system it will be used automatically.
+ */
+.font-korolev {
+  font-family: 'Korolev', 'Jost', 'Segoe UI', sans-serif;
+}
